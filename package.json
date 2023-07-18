@@ -1,0 +1,33 @@
+{
+  "name": "crud-imployee-management",
+  "version": "1.0.0",
+  "description": "this is the crud operation of employee aplication management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "employee-maganagement-system"
+  },
+  "keywords": [
+    "CRUD",
+    "mongodb"
+  ],
+  "author": "crud eperation",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "init": "^0.1.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}

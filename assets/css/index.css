@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+:root{
+    --dark:#2b2d42;
+    --light:#adb5bd;
+    --border:#dee2e6;
+    --border-btn:#edf2f4;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+#header{
+    background-color: #06d5a0;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: .1em;
+}
+#site-main{
+    margin-top: 3em;
+    font-family: 'Barlow', sans-serif;
+}
+#site-main .contsiner .box-nav>a{
+    font-size: 1rem;
+    padding: 5em 1em;
+}
+.table td .table th{
+    padding: .75em;
+    vertical-align: top;
+    border-top: 1px solid var(--dark);
+}
+.table  td>a.btn{
+    
+    font-size: 1.1em;
+    margin: 0 ,2em;
+}
+.table tr:hover{
+    background-color: #06d6a0;
+}
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 1px 10px;
+}
+@media only screen and (max-width:1024px) {
+    table, thead, tbody, th, td, tr{
+        display: block;
+        text-align: center;
+    }
+    thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr{
+        border: 1px solid var(--border);
+    }
+    td{
+        border: none;
+        border-bottom: 1px solid var(--border);
+        position: relative;
+    }
+}
+
+
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    .form-check-input input[type='radio']:checed + .form-check-label:before{
+        background-color: #16db93;
+        box-shadow: inset 0 0 0 px #e9ecef;
+    }
+    .form-check-input input[type='radio']:focus + .form-check-label:before{
+        outline: none;
+        border-color: #16db93;
+    }
+    .form-check-input input[type='radio']:disabled + .form-check-label:before{
+        box-shadow: inset 0 0 0 4px;
+    }
